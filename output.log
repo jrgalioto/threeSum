@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.6, pytest-6.1.1, py-1.9.0, pluggy-0.13.1
+benchmark: 3.2.3 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+rootdir: /home/jim/Downloads/threeSum, configfile: pytest.ini
+plugins: benchmark-3.2.3
+collected 6 items
+
+test_pytest.py::test_correct_solution PASSED
+test_pytest.py::test_empty_list PASSED
+test_pytest.py::test_single_item_list PASSED
+test_pytest.py::test_two_item_list PASSED
+test_pytest.py::test_no_valid_threesum PASSED
+test_pytest.py::test_returns_unique_solution PASSED
+
+============================== 6 passed in 0.02s ===============================
